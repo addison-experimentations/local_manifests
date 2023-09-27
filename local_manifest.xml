@@ -8,7 +8,7 @@
  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="addison-experimentations" revision="lineage-18.1" />
 
  <!--Kernel -->
- <project path="kernel/motorola/msm8953" name="android_kernel_motorola_msm8953" remote="addison-experimentations" revision="lineage-18.1" />
+ <project path="kernel/motorola/msm8953" name="kernel-msm8953" remote="addison-experimentations" revision="4.9-addison" />
  
  <!--Vendor -->
  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
