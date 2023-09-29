@@ -2,8 +2,9 @@
 <manifest>
  <!-- Remotes -->
     <remote name="addison-experimentations"
-            fetch="https://github.com/addison-experimentations"
-            clone-depth="1" />
+            fetch="https://github.com/addison-experimentations" />
+    <remote name="muppets"
+            fetch="https://github.com/TheMuppets"/>
  <!--Tree -->
  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="addison-experimentations" revision="lineage-18.1" />
 
@@ -11,7 +12,7 @@
  <project path="kernel/motorola/msm8953" name="kernel-msm8953" remote="addison-experimentations" revision="4.9-addison" />
  
  <!--Vendor -->
- <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
+ <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="lineage-18.1" />
  
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
