@@ -16,5 +16,6 @@
  
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
+ <project path="hardware/qcom/audio-caf/msm8953" name="android_hardware_qcom_audio" remote="addison-experimentations" revision="lineage-18.1-caf-msm8953" />
  
 </manifest>
