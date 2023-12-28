@@ -6,7 +6,7 @@
     <remote name="muppets"
             fetch="https://github.com/TheMuppets"/>
  <!--Tree -->
- <project path="device/motorola/addison" name="android_device_motorola_addison" remote="addison-experimentations" revision="lineage-18.1" />
+ <project path="device/motorola/addison" name="android_device_motorola_addison" remote="addison-experimentations" revision="lineage-18.1-4.9" />
 
  <!--Kernel -->
  <project path="kernel/motorola/msm8953" name="android_kernel_4.9" remote="addison-experimentations" revision="lineage-18.1-2" />
